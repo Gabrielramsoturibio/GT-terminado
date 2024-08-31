@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Site de Exemplo - Abas Inspiradas no iFood</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="logo">
+				<h1>GT Deliverys</h1>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<div class="container">
+			<div class="tabs">
+				<button class="tab-button active" data-tab="home">Início</button>
+				<button class="tab-button" data-tab="categories">Categorias</button>
+				<button class="tab-button" data-tab="restaurants">Restaurantes</button>
+				<button class="tab-button" data-tab="contact">Contato</button>
+				<button class="tab-button" data-tab="cart">Carinho</button>
+			</div>
+			<div class="tab-content">
+				<div id="home" class="tab-panel active">
+					<h2>Bem-vindo ao GT Deliverys!</h2>
+					<p>Descubra os melhores restaurantes e pratos perto de você.</p>
+				</div>
+				<div id="categories" class="tab-panel">
+					<h2>Categorias Populares</h2>
+					<div class="categories-grid">
+						<div class="category-card">
+							<h3>Pizza</h3>
+							<div class="product-list">
+								<div class="product-item">
+									<img src="https://c4.wallpaperflare.com/wallpaper/517/845/145/pizza-italian-food-vegetarian-food-pizza-margherita-wallpaper-preview.jpg" alt="Pizza Margherita">
+									<span>Pizza Margherita</span>
+									<p>R$ 35,00</p>
+									<button class="add-to-cart" data-product="Pizza Margherita">Adicionar ao Carinho</button>
+								</div>
+								<!-- Adicione mais produtos aqui -->
+							</div>
+						</div>
+
+													<div class="product-list">
+														<div class="product-item">
+															<img src="https://c4.wallpaperflare.com/wallpaper/517/845/145/pizza-italian-food-vegetarian-food-pizza-margherita-wallpaper-preview.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 728px; height: 207px; margin: 0px; width: 368px;" alt="Pizza margherita 1080P, 2K, 4K, 5K HD wallpapers free ..." jsname="kn3ccd" aria-hidden="false">
+															<span>Pizza Margherita</span>
+															<p>R$ 35,00</p>
+															<button class="add-to-cart" data-product="Pizza Margherita">Adicionar ao Carinho</button>
+														</div>
+													
+														<div class="product-item">
+															<img src="https://c0.wallpaperflare.com/preview/274/419/659/pepperoni-pizza.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 910px; height: 244px; margin: 0px; width: 368px;" alt="Pepperoni pizza 1080P, 2K, 4K, 5K HD wallpapers free ..." jsname="kn3ccd" aria-hidden="false">
+													
+															<span>Pizza peperonie</span>
+															<p>R$ 35,00</p>
+															<button class="add-to-cart" data-product="Pizza Margherita">Adicionar ao Carinho</button>
+														</div>
+													
+														<div class="product-item">
+															<img src="https://img.freepik.com/fotos-gratis/delicioso-arranjo-tradicional-de-pizza_23-2148921324.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 626px; height: 263px; margin: 0px; width: 368px;" alt="Pizza Portuguesa Imagens – Download Grátis no Freepik" jsname="kn3ccd" aria-hidden="false">
+															<span>Pizza portuguesa</span>
+															<p>R$ 40,00</p>
+															<button class="add-to-cart" data-product="Pizza Margherita">Adicionar ao Carinho</button>
+														</div>
+													
+														<div class="product-item">
+															<img src="https://media.istockphoto.com/id/521403691/pt/foto/quente-feito-em-casa-pizza-de-pepperoni.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=KWGroPbutn4ruhgedMeQ6vvPhFULRrnCMtV5coxr1AI=" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 612px; height: 245px; margin: 0px; width: 368px;" alt="70.100+ Pizza Calabreza fotos de stock, imagens e fotos ..." jsname="kn3ccd" aria-hidden="false">
+															<span>Pizza calabresa</span>
+															<p>R$ 40,00</p>
+															<button class="add-to-cart" data-product="Pizza Margherita">Adicionar ao Carinho</button>
+														</div>
+													
+														<div class="product-item">
+															<img src="https://st4.depositphotos.com/1000605/21857/i/450/depositphotos_218577628-stock-photo-tasty-four-cheese-pizza.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 600px; height: 245px; margin: 0px; width: 368px;" alt="Fotos de Pizza quatro queijos, Imagens de Pizza quatro ..." jsname="kn3ccd" aria-hidden="false">
+															<span>Pizza quatro queijos </span>
+															<p>R$ 36,00</p>
+															<button class="add-to-cart" data-product="Pizza Margherita">Adicionar ao Carinho</button>
+														</div>
+													
+														<div class="product-item">
+															<img src="https://img.freepik.com/fotos-gratis/pizza-deliciosa-dentro-de-casa_23-2150873862.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 626px; height: 245px; margin: 0px; width: 368px;" alt="Pizza Queijo Imagens – Download Grátis no Freepik" jsname="kn3ccd" aria-hidden="false">
+															<span>Pizza mussarela</span>
+															<p>R$ 45,00</p>
+															<button class="add-to-cart" data-product="Pizza Margherita">Adicionar ao Carinho</button>
+														</div>
+													
+														<div class="product-item">
+															<img src="https://wallpapers.com/images/hd/italian-food-pizza-close-up-ou9ocfgqyfun2cob.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 1920px; height: 230px; margin: 0px; width: 368px;" alt="Baixe Papéis de Parede do Comidaitaliana Pizza Close-up ..." jsname="kn3ccd" aria-hidden="false">
+													
+															<span>Pizza carne</span>
+															<p>R$ 45,00</p>
+															<button class="add-to-cart" data-product="Pizza Margherita">Adicionar ao Carinho</button>
+														</div>
+
+			
+					</div>
+						<div class="category-card">
+							<h3>Sushi</h3>
+							<div class="product-list">
+								<div class="product-item">
+									<img src="https://i.pinimg.com/originals/c1/05/56/c105562af57b051a64ce9838a6784971.png" alt="Sushi de Salmão">
+									<span>Sushi de Salmão</span>
+									<p>R$ 35,00</p>
+									<button class="add-to-cart" data-product="Sushi de Salmão">Adicionar ao Carinho</button>
+								</div>
+								<!-- Adicione mais produtos aqui -->
+							</div>
+						</div>
+						<div class="category-card">
+							<h3>Burger</h3>
+							<div class="product-list">
+								<div class="product-item">
+									<img src="https://img.freepik.com/fotos-gratis/cheeseburger-gourmet-e-batatas-fritas-na-mesa-de-madeira-generativa-ai_188544-12196.jpg" alt="Burger Clássico">
+									<span>Burger Clássico</span>
+									<p>R$ 35,00</p>
+									<button class="add-to-cart" data-product="Burger Clássico">Adicionar ao Carinho</button>
+								</div>
+								<!-- Adicione mais produtos aqui -->
+							</div>
+						</div>
+						<div class="category-card">
+							<h3>Bebidas</h3>
+							<div class="product-list">
+								<div class="product-item">
+									<img src="https://wallpapers.com/images/hd/coca-cola-a0ndw2wk6ni9y99k.jpg" alt="Coca Cola">
+									<span>Coca Cola</span>
+									<p>R$ 35,00</p>
+									<button class="add-to-cart" data-product="Coca Cola">Adicionar ao Carinho</button>
+								</div>
+								<!-- Adicione mais produtos aqui -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="restaurants" class="tab-panel">
+					<h2>Recomendação de Restaurantes</h2>
+					<div class="restaurants-list">
+						<div class="restaurant-card">
+							Restaurante 1-china
+						<button class="add-to-cart" data-product="Restaurante 2">Adicionar ao Carinho</button>
+						</div>
+						<div class="restaurant-card">
+							Restaurante 2-paris
+							<button class="add-to-cart" data-product="Restaurante 2">Adicionar ao Carinho</button>
+						</div>
+						<div class="restaurant-card">
+							Restaurante 3- Italia
+							<button class="add-to-cart" data-product="Restaurante 3">Adicionar ao Carinho</button>
+						</div>
+						<div class="restaurant-card">
+							Restaurante 4-brasil
+							<button class="add-to-cart" data-product="Restaurante 4">Adicionar ao Carinho</button>
+						</div>
+					</div>
+				</div>
+				<div id="contact" class="tab-panel">
+					<h2>Contato</h2>
+					<p>
+           Endereço: rua 125 quadra 14 conj 23 lote 37, 
+           telefone: 1245-6789,
+           E-mail:contato@gtdeliverys.com.br .</p>
+				</div>
+				<div id="cart" class="tab-panel">
+					<h2>Carinho</h2>
+					<div id="cart-items">
+						<p>Seu carrinho está vazio.</p>
+					</div>
+					<div id="checkout">
+						<h3>Finalização de Compra</h3>
+						<form id="checkout-form">
+							<label for="name">Nome:</label>
+							<input type="text" id="name" name="name" required>
+
+							<label for="email">Email:</label>
+							<input type="email" id="email" name="email" required>
+
+							<label for="address">Endereço:</label>
+							<input type="text" id="address" name="address" required>
+
+							<label for="phone">Telefone:</label>
+							<input type="tel" id="phone" name="phone" required>
+
+							<button type="submit">Finalizar Compra</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="container">
+			<p>&copy; 2024 Foodie. Todos os direitos reservados.</p>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
+  </section>
+  <a href="https://foodydelivery.com/">patrocinador-site parceiro
