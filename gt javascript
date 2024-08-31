@@ -1,0 +1,58 @@
+// script.js
+
+// Função para trocar entre abas
+document.querySelectorAll('.tab-button').forEach(button => {
+  button.addEventListener('click', () => {
+    const tabId = button.getAttribute('data-tab');
+
+    // Remove a classe 'active' de todas as abas e botões
+    document.querySelectorAll('.tab-button, .tab-panel').forEach(el => {
+      el.classList.remove('active');
+    });
+
+    // Adiciona a classe 'active' à aba e painel selecionados
+    button.classList.add('active');
+    document.getElementById(tabId).classList.add('active');
+  });
+});
+
+// Função para adicionar produtos ao carrinho
+const cartItems = document.getElementById('cart-items');
+const addToCartButtons = document.querySelectorAll('.add-to-cart');
+
+addToCartButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const productName = button.getAttribute('data-product');
+
+    // Adiciona o item ao carrinho
+    const item = document.createElement('div');
+    item.classList.add('cart-item');
+    item.textContent = productName;
+
+    // Verifica se o carrinho está vazio
+    if (cartItems.querySelector('p')) {
+      cartItems.querySelector('p').remove();
+    }
+
+    cartItems.appendChild(item);
+  });
+});
+
+// Função para finalizar a compra
+document.getElementById('checkout-form').addEventListener('submit', (event) => {
+  event.preventDefault(); // Evita o envio do formulário para fins de demonstração
+
+  // Coleta os dados do formulário
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const address = document.getElementById('address').value;
+  const phone = document.getElementById('phone').value;
+
+  // Aqui você pode adicionar lógica para enviar esses dados para um servidor ou processar a compra
+
+  // Exibe uma mensagem de confirmação
+  alert(`Obrigado, ${name}! Sua compra foi finalizada.\n\nDetalhes:\nNome: ${name}\nEmail: ${email}\nEndereço: ${address}\nTelefone: ${phone}`);
+
+  // Limpa o formulário
+  document.getElementById('checkout-form').reset();
+});
